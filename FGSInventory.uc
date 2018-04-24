@@ -117,22 +117,16 @@ function Array<Weapon> GetCurrentWeaponsArray(optional Int Index = -1)
     {
         case 1:
             return WeaponsCategory1;
-
         case 2:
             return WeaponsCategory2;
-
         case 3:
             return WeaponsCategory3;
-
         case 4:
             return WeaponsCategory4;
-
         case 5:
             return WeaponsCategory5;
-
         case 6:
             return WeaponsCategory6;
-
         default:
             return WeaponsCategory1;
     }
